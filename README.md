@@ -67,7 +67,7 @@ rails generate rspec:install
 run the test with:
 
 ```
-rspec spec
+bundle exec rspec
 ```
 
 ## Authors
@@ -95,4 +95,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./LICENCE) licensed.
-
