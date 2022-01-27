@@ -11,7 +11,7 @@ To get a local copy up and running follow these simple example steps.
 
 git clone https://github.com/Isabellanamutenda/Recipe-App.git
 
-cd Trending-Blog-app
+cd Recipe app
 
 ### Prerequisites
 
@@ -67,7 +67,7 @@ rails generate rspec:install
 run the test with:
 
 ```
-rspec spec
+bundle exec rspec
 ```
 
 ## Authors
