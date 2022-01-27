@@ -9,7 +9,7 @@ The Recipe app keeps track of all your recipes, ingredients, and inventory. It w
 
 To get a local copy up and running follow these simple example steps.
 
-git clone https://github.com/Isabellanamutenda/RoR-capstone.git
+git clone https://github.com/Isabellanamutenda/Recipe-App.git
 
 cd Trending-Blog-app
 
