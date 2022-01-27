@@ -3,7 +3,8 @@ require 'rails_helper'
 RSpec.feature 'Recipe Show', type: :feature do
   before(:each) do
     @user = User.create(name: 'Testing', email: 'user@example.com', password: 'password')
-    @recipe = Recipe.create(user: @user, name: 'Wonderful cake', cooking_time: 5.5, preparation_time: 12.6, description: 'Test the wonderful cake', public: true)
+    @recipe = Recipe.create(user: @user, name: 'Wonderful cake', cooking_time: 5.5, preparation_time: 12.6,
+                            description: 'Test the wonderful cake', public: true)
     visit user_session_path
     fill_in 'user[email]', with: 'user@example.com'
     fill_in 'user[password]', with: 'password'
