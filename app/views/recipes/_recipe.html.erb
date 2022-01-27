@@ -5,10 +5,8 @@
 
     <%= f.label :description, "Write description", class: "form-label fs-6" %>
     <%= f.text_area :description, size: "80x15", :placeholder => "Add your description here...", required: true, class: "form-control" %>
-
     <%= f.label :cooking_time, "Cooking time(mins)", class: "form-label fs-6" %>
     <%= f.text_field :cooking_time, class: "form-control mb-2" %>
-
     <%= f.label :preparation_time, "Preparation time(mins)", class: "form-label fs-6" %>
     <%= f.text_field :preparation_time, class: "form-control mb-2" %>
 
@@ -18,4 +16,4 @@
     </div>
     <%= f.submit "Add Recipe", data: {disable_with: "Adding..."}, class: "btn btn-primary btn-floating mx-1 w-100" %>
   <% end %>
-</div> 
+</div>  
